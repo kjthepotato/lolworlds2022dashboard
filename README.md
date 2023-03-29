@@ -11,7 +11,7 @@ _*slight knowledge on League of Legends may be needed_\
 - a stacked column chart showing winrate by champion (%)
 - a slicer to select champions
 - multiple cards each showing champion selected, ban rate, pick rate, game presence, games won, games lost, and overall winrate
-\
+
 **Steps applied to the dataset:**
 1) rename everything in "Champion" column as the dataset's values were doubled
     - exp: Aatrox Aatrox -> Aatrox
