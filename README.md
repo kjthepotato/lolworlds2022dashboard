@@ -5,6 +5,7 @@ _*slight knowledge on League of Legends may be needed_
 
 **Reason for project:** to practice and sharpen data visualization skills  
 **Goal:** to create an interactive dashboard that displays champion pick / ban rate, and winrates in Worlds 2022
+**Dataset source:** https://gol.gg/champion/list/season-S12/split-ALL/tournament-World%20Championship%202022/  
 
 **The interactive dashboard displays the following:**  
 - a stacked column chart showing game presence by champion (%)  
