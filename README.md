@@ -1,7 +1,7 @@
 # LoL Worlds 2022 Dashboard
 29/3/2023\
 An interactive dashboard based on a dataset taken from the League of Legends Worlds 2022 Championship.\
-_*slight knowledge on League of Legends may be needed_\
+_*slight knowledge on League of Legends may be needed_
 
 **Reason for project:** to practice and sharpen data visualization skills\
 **Goal:** to create an interactive dashboard that displays champion pick / ban rate, and winrates in Worlds 2022\
