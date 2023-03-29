@@ -6,28 +6,28 @@ _*slight knowledge on League of Legends may be needed_
 **Reason for project:** to practice and sharpen data visualization skills  
 **Goal:** to create an interactive dashboard that displays champion pick / ban rate, and winrates in Worlds 2022
 
-**The interactive dashboard displays the following:**
-- a stacked column chart showing game presence by champion (%)
-- a stacked column chart showing winrate by champion (%)
-- a slicer to select champions
-- multiple cards each showing champion selected, ban rate, pick rate, game presence, games won, games lost, and overall winrate
+**The interactive dashboard displays the following:**  
+- a stacked column chart showing game presence by champion (%)  
+- a stacked column chart showing winrate by champion (%)  
+- a slicer to select champions  
+- multiple cards each showing champion selected, ban rate, pick rate, game presence, games won, games lost, and overall winrate  
 
-**Steps applied to the dataset:**
-1) rename everything in "Champion" column as the dataset's values were doubled
-    - exp: Aatrox Aatrox -> Aatrox
-\
-2) removed multiple columns as they are unrelated to Goal (see line 7), such as CS/M, DP/M, GP/M, and etc.
-\
-3) removed champions that had 0% presence (not picked or banned) from the dataset
-    - changed data in column "presence" from 0 to null in power query editor
-    - excluded values with null from showing
-\
-4) added a new custom column called "games appeared in"
-    - numerical form of column "Presence" as it is just a percentage
-\
-5) changed value of "Presence" & "Winrate" from numerical to percentages
-    - personally, I think having a percentage instead of a decimal is better for visualization
-\
+**Steps applied to the dataset:**  
+1) rename everything in "Champion" column as the dataset's values were doubled  
+    - exp: Aatrox Aatrox -> Aatrox  
+
+2) removed multiple columns as they are unrelated to Goal (see line 7), such as CS/M, DP/M, GP/M, and etc.  
+
+3) removed champions that had 0% presence (not picked or banned) from the dataset  
+    - changed data in column "presence" from 0 to null in power query editor  
+    - excluded values with null from showing  
+
+4) added a new custom column called "games appeared in"  
+    - numerical form of column "Presence" as it is just a percentage  
+
+5) changed value of "Presence" & "Winrate" from numerical to percentages  
+    - personally, I think having a percentage instead of a decimal is better for visualization  
+
 **Reasoning for choice of visualization tools:**
 Stacked column charts: values are stacked closer together when compared to a simple bar chart, making comparison easier when no singular values are selected
 \
