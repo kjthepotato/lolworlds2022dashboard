@@ -1,4 +1,4 @@
-# lolworlds2022dashboard
+# LoL Worlds 2022 Dashboard
 29/3/2023
 An interactive dashboard based on a dataset taken from the League of Legends Worlds 2022 Championship.
 *slight knowledge on League of Legends may be needed
